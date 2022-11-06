@@ -2,9 +2,21 @@
     box-sizing: border-box;
 }
 
-body {
-    margin: 0;
-    padding: 0;
+body{
+    margin: 0px;
+    font-family: Helvetica, sans-serif;
+}
+
+
+body .header{
+    display: flex; 
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+    position: sticky;
+    top: 0px;
+    background: white;
+    z-index: 1;
 }
 
 .navbar{
@@ -13,13 +25,30 @@ body {
     align-items: center;
     background-color: rgb(3, 52, 96);
     color: white;
+    margin: 0% 5% 0% 5%;
 
 }
 
-.fitness-title{
-    font-size: 1.5rem;
-    margin: .5rem;
+.navbar .fitness-title{
+    font-size: 2.5rem;
+    font-family:serif;
+    padding-left: 1%;
+    padding-top: 1%;
+    
+
 }
+
+.logo {
+    width: 60px;
+    border-radius: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    float: right;
+    margin-left: .5em; 
+    
+   
+}
+
 
 .navbar-links ul {
     margin: 0;
@@ -55,7 +84,7 @@ body {
 }
 
 .toggle-button .bar{
-    height: 3px;
+    height: 5px;
     width: 100%;
     background-color: white;
     border-radius: 20px;
@@ -94,3 +123,36 @@ body {
     display: flex;
 }
 }
+
+
+ .navbar .searchArea input{
+    height: 30px;
+    width: 200px;
+    border-radius: 20px;
+    border: 1px solid #cecfd1;
+    text-align: center;
+    margin: 5% 0% 10% 20%;
+   
+    
+}
+
+ .navbar .searchArea button{
+    background: #45464a;
+    border: 1px solid #45464a;
+    color: white;
+    height: 30px;
+    width: 80px;
+    border-radius: 20px;
+    margin-right: 20%;
+   
+}
+
+.banner img{
+    width: 90%;
+    height: 550px;
+    position: relative;
+    margin: 1% 5% 1% 5%;
+    overflow: hidden;
+
+}
+
