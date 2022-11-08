@@ -4,7 +4,8 @@
 
 body {
     margin: 0;
-    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    
    
 }
 
@@ -109,8 +110,6 @@ body {
     border-radius: 20px;
     border: 1px solid #cecfd1;
     text-align: center;
-   
-   
  
 }
 .navbar .searchArea button{
@@ -159,6 +158,17 @@ body {
     font-weight: 800;
  
 }
+
+/*Cart*/
+.cart-container table{
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+}
+
+.cart-container table 
+
+
 
 /*Footer Section*/
 
@@ -248,4 +258,5 @@ ul{
     width: 100%;
 }
 }
+
 
