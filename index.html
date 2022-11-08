@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@500&family=Open+Sans:ital,wght@1,300&family=Raleway:ital,wght@1,400;1,600&display=swap" rel="stylesheet">
     <title>FitZone</title>
 
     <link href="./style/sytle.css" rel="stylesheet">
@@ -15,43 +18,95 @@
 
 <body>
     <!--Header Section-->
-    <nav class="navbar">
-        <div class="fitness-title">FitZone
-            <img class="logo" src="./img/fitzoneLogo.png" alt="FitZoneLogo"> 
         </div>
-       
-        <div class="searchArea">
-            <input placeholder="Search for fitness equipment">
-            <button>Search</button>
-        </div>
-
-        <a href="#" class="toggle-button">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-        </a>
-        <div class="navbar-links">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="shoppingCart.html">Shopping Cart</a></li>
-                <li><a href="login.html">Log in</a></li>   
-            </ul>
-        </div>
-    </nav>
-        
-       <div class="banner">
-        <img src="./img/fitness.png" alt="fitness picture">
-       </div>
-
+        <nav class="navbar">
+            <div class="fitness-title"><b>FitZone</b></div>
+            <a href="#" class="toggle-button">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
+            <div class="searchArea">
+                <input placeholder="Search for fitness equipment">
+                <button>Search</button>
+            </div>
+         
+            <div class="navbar-links">
+                <ul>
+                    <li><a href="./login.html">Login</a></li>
+                    <li><a href="./shoppingCart.html">Shooping-Cart</a></li>
+                </ul>
+            </div>
+            </nav>
+    
+     
         <!--Banner Section-->
-      
+        
+        <div class="banner">
+            <img class="banner-img" src="./img/fitness.png" alt="fitness picture">
+            <div class="news">
+                <h2>Welcome to FitZone</h2>
+                <p>Get the best fitness equipment for you!</p>
+               
+            </div>
+
+        </div>
+
+        <!--Fitness equipment Section-->
+        <div class="equipments">
+            <div class="equipment">
+                <img src="./img/Treadmill.png" alt="Treadmill">
+            </div>
+
+            <div class="equipment">
+                <img src="./img/Spinbike.png" alt="Spinbike">
+            </div>
 
 
+
+        </div>
+   
+        
+<!-- <img class="logo" src="./img/fitzoneLogo.png" alt="fitzoneLogo">-->
 
 
 
 
         <!--Footer-->
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col">
+                        <h4>Company</h4>
+                        <ul>
+                            <li><a href="#">About us</a></li>
+                            <li><a href="#">Our services</a></li>
+                            <li><a href="#">Privacy policy</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Get help</h4>
+                        <ul>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Shipping</a></li>
+                            <li><a href="#">Returns</a></li>
+                            <li><a href="#">Order status</a></li>
+                            <li><a href="#">Payment options</a></li>
+                        </ul>
+                    </div>
+                  
+                    <div class="footer-col">
+                        <h4>Follow us</h4>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+       </footer>
     
 
 

@@ -2,53 +2,30 @@
     box-sizing: border-box;
 }
 
-body{
-    margin: 0px;
-    font-family: Helvetica, sans-serif;
-}
-
-
-body .header{
-    display: flex; 
-    max-width: 80%;
-    margin: 0 auto;
-    padding: 10px;
-    position: sticky;
-    top: 0px;
-    background: white;
-    z-index: 1;
+body {
+    margin: 0;
+    padding: 0;
+   
 }
 
 .navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(3, 52, 96);
+    background-color: rgb(3, 3, 59);
     color: white;
-    margin: 0% 5% 0% 5%;
+    position:sticky;
+    top: 0px;
+    z-index: 1;
 
 }
 
-.navbar .fitness-title{
+.fitness-title{
     font-size: 2.5rem;
-    font-family:serif;
-    padding-left: 1%;
-    padding-top: 1%;
-    
-
+    font-weight: bold;
+    margin: .5rem;
+    font-family: 'Open Sans', sans-serif;
 }
-
-.logo {
-    width: 60px;
-    border-radius: 30px;
-    display: flex;
-    flex-wrap: wrap;
-    float: right;
-    margin-left: .5em; 
-    
-   
-}
-
 
 .navbar-links ul {
     margin: 0;
@@ -68,7 +45,7 @@ body .header{
 }
 
 .navbar-links li:hover {
-    background-color: rgb(8, 94, 117);
+    background-color: rgb(134, 138, 176);
 }
 
 .toggle-button {
@@ -84,12 +61,13 @@ body .header{
 }
 
 .toggle-button .bar{
-    height: 5px;
+    height: 3px;
     width: 100%;
     background-color: white;
     border-radius: 20px;
 }
 
+/*Responsive design for the navbar*/
 @media (max-width: 500px) {
     .toggle-button {
         display: flex;
@@ -125,34 +103,149 @@ body .header{
 }
 
 
- .navbar .searchArea input{
+.navbar .searchArea input{
     height: 30px;
     width: 200px;
     border-radius: 20px;
     border: 1px solid #cecfd1;
     text-align: center;
-    margin: 5% 0% 10% 20%;
    
-    
+   
+ 
 }
-
- .navbar .searchArea button{
-    background: #45464a;
-    border: 1px solid #45464a;
+.navbar .searchArea button{
+    background: #76787e;
+    border: 1px solid #76787e;
     color: white;
     height: 30px;
     width: 80px;
     border-radius: 20px;
-    margin-right: 20%;
    
+  
+}
+/*Banner Section*/
+.banner{
+    background-color: white;
+    padding: 10px 0px 20px 0px;
+    margin:0px 20px 20px;
+    margin: 0 auto;
+    height: 450px;
+    overflow: hidden;
+    padding: 10px;
+    position: relative;
+    
 }
 
-.banner img{
-    width: 90%;
-    height: 550px;
-    position: relative;
-    margin: 1% 5% 1% 5%;
-    overflow: hidden;
+.banner-img{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    
 
+}
+.banner .news{
+    position:absolute;
+    left: 40px;
+    background: rgba(255, 255, 255, 0.90);
+    width: 32%;
+    padding: 25px;
+    top: 35%;
+    transform: translateY(-35%);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+}
+.banner .news h2, p{
+    color:  rgb(3, 3, 59);
+    font-weight: 800;
+ 
+}
+
+/*Footer Section*/
+
+.container{
+	max-width: 1170px;
+	margin:auto;
+
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: rgb(3, 3, 59);;
+    padding: 70px 0;
+    margin: 10px 0px 0px;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #f7eef1;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+/*responsive design for the footer*/
+
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
 }
 
