@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@500&family=Open+Sans:ital,wght@1,300&family=Raleway:ital,wght@1,400;1,600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@500&family=Open+Sans:ital,wght@1,300&family=Raleway:wght@200&display=swap');
+
 * {
     box-sizing: border-box;
 }
@@ -161,6 +161,7 @@ body {
  
 }
 
+/*Equipments Section*/
 
 body .equipments{
     width: 80%;
@@ -189,9 +190,9 @@ body .equipments .equipment{
         font-family: 'Maven Pro', sans-serif;
     }
     body .equipments .equipment p{
-        font-weight: 300;
+        font-weight: 100;
         padding: 10px;
-        font-family: 'Raleway';
+        font-family:Arial, Helvetica;
         
        
     }
