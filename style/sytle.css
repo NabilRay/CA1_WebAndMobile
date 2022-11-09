@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@500&family=Open+Sans:ital,wght@1,300&family=Raleway:ital,wght@1,400;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@500&family=Open+Sans:ital,wght@1,300&family=Raleway:wght@200&display=swap');
 * {
     box-sizing: border-box;
 }
@@ -5,7 +7,7 @@
 body {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
-    
+    color:rgb(3, 3, 59);
    
 }
 
@@ -159,6 +161,42 @@ body {
  
 }
 
+
+body .equipments{
+    width: 80%;
+    padding: 10px;
+    margin: 0;
+    display: flex;
+    }
+    
+body .equipments .equipment{
+    border: 3px solid rgb(3, 3, 59);;
+    border-radius: 5px;
+    }
+    
+    body .equipments .equipment:nth-child(odd){
+        margin-right: 25px;
+        margin-left: 25px ;
+    }
+    
+    body .equipments .equipment img{
+        width: 100%;
+    }
+    body .equipments .equipment h2{
+        font-size: 1.5rem;
+        font-weight: bold;
+        padding: 5px;
+        font-family: 'Maven Pro', sans-serif;
+    }
+    body .equipments .equipment p{
+        font-weight: 300;
+        padding: 10px;
+        font-family: 'Raleway';
+        
+       
+    }
+    
+
 /*Cart*/
 .cart-container table{
     border-collapse: collapse;
@@ -186,12 +224,14 @@ ul{
 }
 .footer{
 	background-color: rgb(3, 3, 59);;
-    padding: 70px 0;
+    padding: 40px 40px 40px 50px;
     margin: 10px 0px 0px;
 }
 .footer-col{
    width: 25%;
    padding: 0 15px;
+   width: 33%;
+   padding: 0 10px;
 }
 .footer-col h4{
 	font-size: 18px;
