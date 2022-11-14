@@ -107,13 +107,10 @@
     background-color: white;
     background-size: cover;
     background-position: top center;
-<<<<<<< HEAD
     /*padding: 0px 0px 20px 0px;*/
     margin:0px 0px 0px;
-=======
     padding: 10px 0px 10px 0px;
     margin:0px 10px 10px;
->>>>>>> ab414fc18df40ed8836c47a863f3820fafeccfda
     height: 670px;
     overflow: hidden;
     position: relative;
