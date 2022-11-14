@@ -214,7 +214,7 @@ background-color: coral;
 .imgContainer{
     float:left;
     cursor:pointer;
-    
+    gap: 20%;
 }
 
 .imgContainer.first-img{
@@ -243,6 +243,14 @@ background-color: coral;
     background-color: coral;
 }
 
+.imgContainer.seventh-img{
+    padding-top: 40px;
+}
+
+.spacer-div-1{
+    height: 10rem;
+
+}
 
 /*Equipments Section 
 
