@@ -135,8 +135,8 @@
     background-color: white;
     background-size: cover;
     background-position: top center;
-    /*padding: 10px 0px 20px 0px;*/
-    margin:0px 20px 20px;
+    /*padding: 0px 0px 20px 0px;*/
+    margin:0px 0px 0px;
     height: 670px;
     overflow: hidden;
     position: relative;
