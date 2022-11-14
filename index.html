@@ -22,7 +22,7 @@
 
 <body>
     <!--Header Section-->
-        </div>
+    
         <nav class="navbar">
             <div class="fitness-title"><b>FitZone</b></div>
             <a href="#" class="toggle-button">
@@ -33,12 +33,13 @@
             </a>
             <div class="searchArea">
                 <div class="fa fa-search"></div>
-                <input type="text" placeholder="Search for fitness equipment">
-                <div class="fa fa-times"></div>
+                <input type="text" placeholder="Search for fitness equipment" id="search-box">
+                <div class="fa fa-times"></div>   
             </div>
-         
+            
             <div class="navbar-links">
                 <ul>
+                    <li><a href="./index.html">Home</a></li>
                     <li><a href="./reservation.html">Reservation</a></li>
                 </ul>
             </div>
@@ -58,197 +59,151 @@
 
 
         <!--Fitness equipment Section-->
-        <section id="product" class="my-5 pb-5">
+ 
        <div class="container mt-5 py-5">
-        <h1>Our Products</h1>
-        <hr>
-        <P> Get the best deals with us</P>
+            <h1>Our fitness Products</h1>
+            <hr>
+            <h3> Get the best deals with us</h3>
        </div> 
-        
 
-          <div class=" container image123">
-            <div class="imgContainer col-lg-3 col-md-4 col-12 ">
-                <img class="img mb-7" src=./img/Rack.png height="300" width="300"/>
-                    <div class="star">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                        <h2 class="e-name">Rack</h2>
-                        <h4 class="e-price"> $150 </h4>
-                        <button class="rev-btn">Reserve Now</button>
-            </div>
+    <div class="container">
 
-            <div class="imgContainer">
-                <img class="img" src=./img/Treadmill.png height="300" width="300"/>
-                    <div class="star">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                        <h2 class="e-name">Treadmill Bolt T90</h2>
-                        <h4 class="e-price"> $500 </h4>
-                        <button class="rev-btn">Reserve Now</button>
-            </div>
+       <div class="image-container">
 
-            <div class="imgContainer">
-                 <img class="third-img" src="./img/Hyperextension.png" height="300" width="300"/>
-                    <div class="star">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                        <h2 class="e-name">Hyperextension</h2>
-                        <h4 class="e-price"> $300 </h4>
-                        <button class="rev-btn">Reserve Now</button>
-            </div>
-            <div class="row">
-                 <div class="imgContainer">
-                    <img class="fourth-img" src="./img/Kettlebells.png" height="300" width="300"/>
-                        <div class="star">
-                          <i class="fas fa-star"></i>
-                          <i class="fas fa-star"></i>
-                          <i class="fas fa-star"></i>
-                          <i class="fas fa-star"></i>
-                          <i class="fas fa-star"></i>
-                        </div>
-                       <h2 class="e-name">Kettlebells</h2>
-                       <h4 class="e-price"> <b>$500 </b></h4>
-                       <button class="rev-btn">Reserve Now</button>
-                </div>
-            </div>
-
-                <div class="spacer-div-1">
-                    
-                </div>
-
-
-                <div class="imgContainer">
-                   <img class="fifth-img" src="./img/Treadmill.png" height="300" width="300"/>
-                       <div class="star">
-                         <i class="fas fa-star"></i>
-                         <i class="fas fa-star"></i>
-                         <i class="fas fa-star"></i>
-                         <i class="fas fa-star"></i>
-                         <i class="fas fa-star"></i>
-                       </div>
-                      <h2 class="e-name">Treadmill Bolt T90</h2>
-                      <h4 class="e-price"> <b>$800 </b></h4>
-                      <button class="rev-btn">Reserve Now</button>
-               </div>
-
-            <div class="imgContainer">
-               <img class="sixth-img"src="./img/Multigym.png" height="300" width="300"/>
-                   <div class="star">
-                     <i class="fas fa-star"></i>
-                     <i class="fas fa-star"></i>
-                     <i class="fas fa-star"></i>
-                     <i class="fas fa-star"></i>
-                     <i class="fas fa-star"></i>
-                   </div>
-                  <h2 class="e-name">Multi Gym</h2>
-                  <h4 class="e-price"> <b>$900 </b></h4>
-                  <button class="rev-btn">Reserve Now</button>
-           </div>
-
-        <div class="imgContainer">
-           <img class="seventh-img" src="./img/Boltstrength.png" height="300" width="300"/>
-               <div class="star">
-                 <i class="fas fa-star"></i>
-                 <i class="fas fa-star"></i>
-                 <i class="fas fa-star"></i>
-                 <i class="fas fa-star"></i>
-                 <i class="fas fa-star"></i>
-               </div>
-              <h2 class="e-name">Boltstrength</h2>
-              <h4 class="e-price"> <b>$500 </b></h4>
-              <button class="rev-btn">Reserve Now</button>
-       </div>
-   </div> 
-
-    <div class="imgContainer">
-       <img src="./img/bench.png" height="300" width="300"/>
-           <div class="star">
-             <i class="fas fa-star"></i>
-             <i class="fas fa-star"></i>
-             <i class="fas fa-star"></i>
-             <i class="fas fa-star"></i>
-             <i class="fas fa-star"></i>
-           </div>
-          <h2 class="e-name">Treadmill Bolt T90</h2>
-          <h4 class="e-price"> <b>$500 </b></h4>
-          <button class="rev-btn">Reserve Now</button>
-   </div>
-</div>
-        </section>
-<!--
-    <div class="equipments">
-            <div class="equipment">
-                <img src="./img/Spinbike.png" alt="Spinbike">
-                <h2>Spin Bike Bolt H2</h2>
-                <p>The Bolt H2 Spin Bike is a high-end Spin Bike ideal for home use</p>
-            </div>
-
-            <div class="equipment">
-                <img src="./img/Rack.png" alt="Rack">
-               <h2>Power Rack</h2>
-                <p>The Bolt Strength Power Rack with Dual Weight Stack is a revolutionary addition to any facility and represents the progression of functional training</p>
-            </div>
-
-            <div class="equipment">
-                <img src="./img/Kettlebells.png" alt="Kettlebells">
-                    <h2>Kettlebells</h2>
-                <p>Our kettlebells are powder coated to the highest standard to ensure they are smooth and easy to use</p>
-            </div>
-
-            <div class="equipment">
-                <img src="./img/Bench.png" alt="Bench">
-                <h2>Bench</h2>
-                 <p>The Bench is the ideal addition any personal training studio or home gym.</p>
-            </div>
-
-            <div class="equipment">
-                <img src="./img/Dumbbells.png" alt="Dumbbells">
-                <h2>Bolt Strength Pro</h2>
-                <p>Our Bolt Strength Pro Series range includes our highest graded and most premium machines.</p>
-            </div>
-
-            <div class="equipment">
-                <img src="./img/Boltstrength.png" alt="Boltstrength">
-                <h2>Bolt Strength Pro</h2>
-                <p>Our Bolt Strength Pro Series range includes our highest graded and most premium machines.</p>
-            </div>
-
-            <div class="equipment">
-                <img src="./img/MultiGym.png" alt="MultiGym">
-                <h2>Bolt Strength Pro</h2>
-                <p>Our Bolt Strength Pro Series range includes our highest graded and most premium machines.</p>
-            </div>
-
-            <div class="equipment">
-                <img src="./img/Hyperextension.png" alt="Hyperextension">
-                <h2>Bolt Strength Pro</h2>
-                <p>Our Bolt Strength Pro Series range includes our highest graded and most premium machines.</p>
-            </div>
-
-            <div class="equipment">
-                <img src="./img/Rower.png" alt="Rower">
-                <h2>Bolt Strength Pro</h2>
-                <p>Our Bolt Strength Pro Series range includes our highest graded and most premium machines.</p>          
-            </div>
-        </div>
+        <div class="image" data-title="treadmill">
+           <img src="./img/Treadmill.png" alt="">
+           <h2>Treadmill</h2>
+           <button>RESERVE HERE</button>
+           
+           <br>
+           <i class="fa-solid fa-star"></i>
+           <i class="fa-solid fa-star"></i>
+           <i class="fa-solid fa-star"></i>
+           <i class="fa-solid fa-star-half-stroke"></i>
 
         </div>
-   
-        <--!Footer-->
+  
+        <div class="image" data-title="bench">
+           <img src="./img/Bench.png" alt="bench">
+           <h2>Bench</h2>
+           <button>RESERVE HERE</button><br>
+           <i class="fa-solid fa-star"></i>
+           <i class="fa-solid fa-star"></i>
+           <i class="fa-solid fa-star"></i>
+           <i class="fa-solid fa-star"></i>
+
+        </div>
+  
+        <div class="image" data-title="boltstrength">
+           <img src="./img/Boltstrength.png" alt="">
+           <h2>Boltstrength</h2>
+           <button>RESERVE HERE</button><br>
+           <i class="fa-solid fa-star"></i>
+           <i class="fa-solid fa-star"></i>
+           <i class="fa-solid fa-star"></i>
+           <i class="fa-regular fa-star"></i>
+        </div>
+  
+        <div class="image" data-title="hyperextension">
+           <img src="./img/Hyperextension.png" alt="">
+           <h2>Hyperextension</h2>
+           <button>RESERVE HERE</button><br>
+           <i class="fa-solid fa-star"></i>
+           <i class="fa-solid fa-star"></i>
+           <i class="fa-solid fa-star"></i>
+           <i class="fa-solid fa-star"></i>
+
+        </div>
+  
+        <div class="image" data-title="Multigym">
+           <img src="./img/MultiGym.png" alt="">
+           <h2>MultiGym</h2>
+           <button>RESERVE HERE</button><br>
+           <i class="fa-solid fa-star"></i>
+           <i class="fa-solid fa-star"></i>
+           <i class="fa-solid fa-star"></i>
+           <i class="fa-regular fa-star"></i>
+        </div>
+  
+        <div class="image" data-title="Dumbbells">
+           <img src="./img/Dumbbells.png" alt="">
+           <h2>Dumbbells</h2>
+           <button>RESERVE HERE</button><br>
+           <i class="fa-solid fa-star"></i>
+           <i class="fa-solid fa-star"></i>
+           <i class="fa-solid fa-star"></i>
+           <i class="fa-solid fa-star-half-stroke"></i>
+        </div>
+  
+        <div class="image" data-title="Rack">
+           <img src="./img/Rack.png" alt="">
+           <h2>Rack</h2>
+           <button>RESERVE HERE</button><br>
+           <i class="fa-solid fa-star"></i>
+           <i class="fa-solid fa-star"></i>
+           <i class="fa-solid fa-star"></i>
+           <i class="fa-regular fa-star"></i>
+        </div>
+  
+        <div class="image" data-title="Spinbike">
+           <img src="./img/Spinbike.png" alt="">
+           <h2>Spinbike</h2>
+           <button>RESERVE HERE</button><br>
+           <i class="fa-solid fa-star"></i>
+           <i class="fa-solid fa-star"></i>
+           <i class="fa-solid fa-star"></i>
+           <i class="fa-solid fa-star"></i>
+
+        </div>
+  
+        <div class="image" data-title="Rower">
+           <img src="./img/Rower.png" alt="">
+           <h2>Rower</h2>
+           <button>RESERVE HERE</button><br>
+           <i class="fa-solid fa-star"></i>
+           <i class="fa-solid fa-star"></i>
+           <i class="fa-solid fa-star"></i>
+           <i class="fa-solid fa-star-half-stroke"></i>
+        </div>
+
+        <div class="image" data-title="Kettlebells">
+            <img src="./img/Kettlebells.png" alt="">
+            <h2>Kettlebells</h2>
+            <button>RESERVE HERE</button><br>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+         </div>
+
+         <div class="image" data-title="Booty Trainer">
+            <img src="./img/Booty Trainer.png" alt="">
+            <h2>Booty Trainer</h2>
+            <button>RESERVE HERE</button><br>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+         </div>
+
+         <div class="image" data-title="Power Suspension Trainer">
+            <img src="./img/Power Suspension Trainer.png" alt="">
+            <h2>Power Suspension Trainer</h2>
+            <button>RESERVE HERE</button><br>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+ 
+         </div>
+  
+     </div>
+  
+  </div>
+
+        <!--Footer-->
         <footer class="footer">
-            <div class="container">
+            <div class="container1">
                 <div class="row">
                     <div class="footer-col">
                         <h4>FitZone</h4>
@@ -288,7 +243,8 @@
 <!-- Jquery-->
 <script src="./jquery-3.6.1.js"></script>  
 
-<script src="./javascript/script.js" defer></script>
+<script src="./javascript/script.js"></script>
+
 
 </body>
 
