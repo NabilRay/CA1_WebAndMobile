@@ -244,6 +244,19 @@
   .container .image-container .image h3{
     font-size: 20px;
   }
+
+  .rev-btn{
+    font-size: 0.8rem;
+    font-weight: 100;
+    outline: none;
+    background-color: black;
+    border: none;
+    color: rgb(248, 248, 249);
+    padding: 13px 30px;
+    cursor: pointer;
+    text-transform:uppercase;
+    transition: 0.3s ease;
+  }
   
   @media (max-width:768px){
     .container #search-box{
