@@ -13,6 +13,7 @@
     position:sticky;
     top: 0px;
     z-index: 1;
+    width: 100%;
 
 }
 
@@ -133,12 +134,12 @@
     background-color: white;
     background-size: cover;
     background-position: top center;
-    padding: 10px 0px 20px 0px;
+    /*padding: 10px 0px 20px 0px;*/
     margin:0px 20px 20px;
     height: 670px;
     overflow: hidden;
     position: relative;
-    
+    width: 100%;
 }
 
 .banner-img{
@@ -204,21 +205,23 @@ background-color: coral;
     text-align: center;
     padding-top: 50px;
     padding-bottom: 40px;
+    border-color: #24262b;
+    border: 2px;
     
 }
 
 .imgContainer{
     float:left;
     cursor:pointer;
-    margin-bottom: 2rem;
+    
 }
 
-.imgContainer.img{
+.imgContainer.first-img{
     transition: 0.3s all;
 }
 
 .imgContainer.first-img{
-    opacity:0.7;
+    opacity:0.7
 }
 
 .rev-btn{
@@ -238,6 +241,7 @@ background-color: coral;
 .rev-btn:hover{
     background-color: coral;
 }
+
 
 /*Equipments Section 
 
@@ -290,7 +294,7 @@ ul{
 	background-color: rgb(3, 3, 59);;
     padding: 50px 40px 40px 50px;
     margin: 10px 0px 0px;
-    margin-top: 900px;
+    margin-top: 1200px;
 }
 .footer-col{
    width: 25%;
