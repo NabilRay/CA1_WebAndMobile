@@ -4,13 +4,6 @@
     box-sizing: border-box;
 }
 
-body {
-    margin: 0;
-    font-family: 'Open Sans', sans-serif;
-    color:rgb(3, 3, 59);
-   
-}
-
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -204,19 +197,30 @@ body {
 background-color: coral;
 
 }
-
-/*Equipments Section*/
-
-body.ourproduct{
-    text-transform: uppercase;
+.img-fluid{
+    height:500px;
 }
-body .equipments{
+
+.container1{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 50px;
+}
+
+.imgContainer{
+    float:left;
+}
+
+.footer
+/*Equipments Section 
+
+body .equipment{
     width: 80%;
     padding: 10px;
     margin: 0;
     display: flex;
     }
-    
+  /*  
 body .equipments .equipment{
     border: 3px solid rgb(3, 3, 59);;
     border-radius: 5px;
@@ -239,11 +243,7 @@ body .equipments .equipment{
     body .equipments .equipment p{
         font-weight: 100;
         padding: 10px;
-        font-family:Arial, Helvetica;
-        
-       
-    }
-    
+        font-family:Arial, Helvetica;        }
 /*Footer Section*/
 
 .container{
@@ -262,6 +262,7 @@ ul{
 	background-color: rgb(3, 3, 59);;
     padding: 40px 40px 40px 50px;
     margin: 10px 0px 0px;
+    margin-top: 400px;
 }
 .footer-col{
    width: 25%;
