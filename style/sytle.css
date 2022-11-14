@@ -71,6 +71,7 @@ body {
 }
 
 /*Responsive design for the navbar*/
+
 @media (max-width: 500px) {
     .toggle-button {
         display: flex;
@@ -165,17 +166,17 @@ body {
     position:absolute;
     left: 40px;
     background: rgba(255, 255, 255, 0.90);
-    width: 36%;
+    width: 40%;
     padding: 25px;
     top: 45%;
     transform: translateY(-35%);
     font-family: Arial;
     font-size: 1.5rem;
 }
-.banner .news h1{
+ .banner .news h1{
     color:  rgb(3, 3, 59);
     font-weight: 600;
-    line-height: 2px;
+    
 }
 
 .banner .news p{
