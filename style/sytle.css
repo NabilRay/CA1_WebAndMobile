@@ -20,7 +20,7 @@
     font-size: 2.5rem;
     font-weight: bold;
     margin: .5rem;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Arial';
 }
 
 .navbar-links ul {
@@ -199,17 +199,46 @@ background-color: coral;
     height:500px;
 }
 
-.container1{
+/*our product*/
+.container{
     text-align: center;
-    padding-top: 15px;
-    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    
 }
 
 .imgContainer{
     float:left;
+    cursor:pointer;
+    margin-bottom: 2rem;
 }
 
-.footer
+.imgContainer.img{
+    transition: 0.3s all;
+}
+
+.imgContainer.first-img{
+    opacity:0.7;
+}
+
+.rev-btn{
+    font-size: 0.8rem;
+    font-weight: 100;
+    outline: none;
+    background-color: black;
+    border: none;
+    color: rgb(248, 248, 249);
+    padding: 13px 30px;
+    cursor: pointer;
+    text-transform:uppercase;
+    transition: 0.3s ease;
+
+}
+
+.rev-btn:hover{
+    background-color: coral;
+}
+
 /*Equipments Section 
 
 body .equipment{
@@ -256,11 +285,12 @@ body .equipments .equipment{
 ul{
 	list-style: none;
 }
+
 .footer{
 	background-color: rgb(3, 3, 59);;
-    padding: 40px 40px 40px 50px;
+    padding: 50px 40px 40px 50px;
     margin: 10px 0px 0px;
-    margin-top: 400px;
+    margin-top: 900px;
 }
 .footer-col{
    width: 25%;
