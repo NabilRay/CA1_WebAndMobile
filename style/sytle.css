@@ -102,7 +102,83 @@
     color: rgb(3, 3, 59);
   }
 
+/* Banner Section video */
+
+.banner-screen-video {
+  background-position: top center;
+  padding: 10px 0px 20px 0px;
+  margin:10px;
+  position: relative;
+  height: 85vh;
+  width: 98vw;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+ 
+
+}
+
+.banner-screen-video video {
+  z-index: -1;
+  position: absolute;
+  width: auto;
+  height: auto;
+  min-width: 100%;
+  min-height: 100%;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  
+}
+
+.banner-screen-video .news{
+    position:absolute;
+    left: 40px;
+    background: rgba(255, 255, 255, 0.90);
+    width: 40%;
+    padding: 20px;
+    top: 45%;
+    transform: translateY(-35%);
+    font-family: Arial;
+    font-size: 1.5rem;
+}
+ .banner-screen-video .news h1{
+    color:  rgb(3, 3, 59);
+    font-weight: 600;
+    
+}
+
+.banner-screen-video .news p{
+    color:  rgb(231, 96, 33);
+    font-weight: 600;
+ 
+}
+
+.banner-screen-video .news button{
+    font-size: 0.8rem;
+    font-weight: 100;
+    outline: none;
+    background-color: black;
+    border: none;
+    color: rgb(248, 248, 249);
+    padding: 13px 30px;
+    cursor: pointer;
+    text-transform:uppercase;
+    transition: 0.3s ease;
+
+}
+.banner-screen-video .news button:hover{
+  background-color: coral;
+}
+
+
+
+
+
+
+
 /*Banner Section*/
+/*
 .banner{
     background-color: white;
     background-size: cover;
@@ -173,6 +249,7 @@ background-color: coral;
     height:500px;
 }
 
+*/
 /*Banner responsivness*/
 
 @media (max-width:450px){
@@ -193,8 +270,9 @@ background-color: coral;
     }
   }
   
+  
 
-/*Equipments Section on the homepage*/
+/* Equipments Section on the homepage */
 
 .container{
     padding:25px 10%;
@@ -228,8 +306,8 @@ background-color: coral;
   }
   
   .container .image-container .image img{
-    height: 300px;
-    width: 300px;
+    max-height: 100%;
+    max-width: 100%;
     margin-bottom: 10px;
     border-radius: 5px;
     cursor: pointer;
@@ -291,7 +369,7 @@ background-color: coral;
     }
   }
 
-  /*Footer Section*/
+  /* Footer Section */
 
 .container1{
 	max-width: 1170px;
