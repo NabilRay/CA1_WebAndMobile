@@ -15,7 +15,43 @@
     <link href="./style/sytle.css" rel="stylesheet">
     <script src="./javascript/script.js" defer></script>
 
+<style>
+    .small-img-group{
+        display: flex;
+        justify-content: space-between;
+        cursor: pointer;
 
+    }
+    .small-img-col{
+        flex-basis: 20%;
+        cursor: pointer;
+    }
+    .productdetails input{
+       width: 50px;
+       height: 40px;
+       padding-left:10px;
+       font-size: 16px;
+       margin-right:10px;
+       border: 20px;
+    }
+
+   .buy-btn{
+    font-size: 0.8rem;
+    font-weight: 100;
+    outline: none;
+    background-color: black;
+    border: none;
+    color: rgb(248, 248, 249);
+    padding: 13px 30px;
+    cursor: pointer;
+    text-transform:uppercase;
+    transition: 0.3s ease;
+
+   }
+   .buy-btn:hover{
+background-color: coral;
+   }
+</style>
 </head>
 
 <body>
@@ -42,28 +78,35 @@
             </div>
             </nav>
     
-            <section class=" container productdetails">
+            <section class=" container productdetails my-5 pt-5">
               <div class="row mt-5">
-                <div class="bigpicture col-lg-5 col-md-12 col-12">
-                  <img class="img-fluid "src="./img/dumbbell1.jpg" alt="Dumbbells" height="500px" width="500px">
-
+                <div class="col-lg-5 col-md-12 col-12">
+                  <img class="img-fluid w-100 pb-1 "src="./img/dumbbell3.jpg" id="MainImg" alt="Dumbbells" height="100px" width="500px">
                   <div class="small-img-group">
                     <div class="small-img-col">
                         <img src="./img/dumbbell1.jpg" width="100%" class="small-img" alt="">
                     </div>
                     <div class="small-img-col">
-                        <img src="./img/dumbbell1.jpg" width="100%" class="small-img" alt="">
+                        <img src="./img/dumbbell2.jpg" width="100%" class="small-img" alt="">
                     </div>
                     <div class="small-img-col">
-                        <img src="./img/dumbbell1.jpg" width="100%" class="small-img" alt="">
-                    </div>
-                    <div class="small-img-col">
-                        <img src="./img/dumbbell1.jpg" width="100%" class="small-img" alt="">
+                        <img src="./img/dumbbell3.jpg" width="100%" class="small-img" alt="">
                     </div>
                   </div>
                 </div>
               </div>
+
+              <div class="col-lg-5 col-md-12 col-12">
+\                <h3 class="py-4">Most Popular Dumbbell is here</h3>
+                <h2>$130 </h2>
+                <input type="number" value="1">
+                <button class="buy-btn"> Reserve Now</button>
+                <h4 class="mt-5 mb-5"><b>Product Details</b></h4>
+                <Span>jshjkdvfhfdshu</Span>
+              </div>
             </section>
+
+            
         <!--Footer-->
         <footer class="footer">
             <div class="container">
@@ -98,7 +141,24 @@
                     </div>
                 </div>
             </div>
-       </footer>      
+       </footer>    
+       
+       <script>
+        var MainImage = document.getElementById('MainImg');
+        var smallimg = document.getElementsByClassName('small-img');
+
+        smallimg[0].onclick = function(){
+            MainImage.src = smallimg[0].src;
+        }
+
+        smallimg[1].onclick = function(){
+            MainImage.src = smallimg[1].src;
+        }
+        
+        smallimg[2].onclick = function(){
+            MainImage.src = smallimg[2].src;
+        }
+       </script>
 </body>
 
 </html>
