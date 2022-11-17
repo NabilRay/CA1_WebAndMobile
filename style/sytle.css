@@ -109,8 +109,8 @@
   padding: 10px 0px 20px 0px;
   margin:10px;
   position: relative;
-  height: 85vh;
-  width: 98vw;
+  min-height: 90vh;
+  min-width: 97vw;
   overflow: hidden;
   display: flex;
   align-items: flex-start;
@@ -145,6 +145,7 @@
  .banner-screen-video .news h1{
     color:  rgb(3, 3, 59);
     font-weight: 600;
+    font-size: clamp(3rem, 0.5rem + 10vw, 0.5rem);
     
 }
 
@@ -169,6 +170,20 @@
 }
 .banner-screen-video .news button:hover{
   background-color: coral;
+}
+
+/*Responsive Design of the Banner*/
+
+@media (min-width: 5em) {
+  .banner-screen-video .news{
+    display: block;
+  }
+}
+
+@media (min-width: 5em) {
+  .banner-screen-video .news h1,p{
+    display: block;
+  }
 }
 
 
