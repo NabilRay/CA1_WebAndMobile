@@ -1,4 +1,7 @@
- let searchBox = document.querySelector('#search-box');
+
+/* filter for the serchbar to finde the right items*/
+
+let searchBox = document.querySelector('#search-box');
     let images = document.querySelectorAll('.container .image-container .image');
     
     searchBox.oninput = () =>{

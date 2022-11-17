@@ -2,7 +2,8 @@
 
 * {
     box-sizing: border-box;
-    outline: none; border:none;
+    outline: none; 
+  
     text-decoration: none;
     text-transform: capitalize;
     transition: all .2s linear;
@@ -77,8 +78,8 @@
     height: 30px;
     width: 400px;
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
     background: white;
     padding: 0.5rem;
     border-radius: 0.5rem;
@@ -89,7 +90,7 @@
   .searchArea input{
     margin: 0 0.5rem 0 0.5rem;
     font-size: 1rem;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:Arial;
     width: 100%;
     border: none;
     outline: none;
@@ -101,6 +102,13 @@
 .searchArea ::placeholder {
     color: rgb(3, 3, 59);
   }
+
+
+@media(max-width: 200px){
+  .searchArea{
+    width: 100%;
+}
+}
 
 /* Banner Section video */
 
@@ -387,9 +395,7 @@ background-color: coral;
   /* Footer Section */
 
 .container1{
-	max-width: 1170px;
-	margin:auto;
-
+	max-width: 1000px;
 }
 .row{
 	display: flex;
