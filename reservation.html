@@ -12,59 +12,73 @@
 
     <link href="./style/sytle.css" rel="stylesheet">
     <script src="./javascript/script.js" defer></script>
+    <style>
+        * {
+          box-sizing: border-box;
+        }
+        
+        input[type=text], select, textarea {
+          width: 50%;
+          padding: 20px;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          resize: vertical;
+        }
+        
+        label {
+          padding: 2px 2px 2px 0;
+          display: inline-block;
+        }
+        
+        input[type=submit] {
+          background-color: coral;
+          color: white;
+          padding: 12px 20px;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+        }
+        
+        input[type=submit]:hover {
+          background-color: coral;
+        }
+        
+        .container {
+          border-radius: 5px;
+          background-color: #f2f2f2;
+          padding: 20px;
+        }
+        
+        .col-25 {
+          float: left;
+          width: 25%;
+          margin-top: 1px;
+        }
+        
+        .col-75 {
+          float: left;
+          width: 75%;
+          margin-top: 6px;
+        }
+        
+        /* Clear floats after the columns */
+        .row:after {
+          content: "";
+          display: table;
+          clear: both;
+        }
+        
+        /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+        @media screen and (max-width: 600px) {
+          .col-25, .col-75, input[type=submit] {
+            width: 100%;
+            margin-top: 0;
+          }
+        }
+        </style>
 </head>
-<style>
-    
-    body {
-            padding: 10px 50px;
-        }
-
-        .formdesign {
-            font-size: 20px;
-
-        }
-
-        .formdesign input {
-            width: 40%;
-            padding: 12px 20px;
-            border: 1px solid black;
-            margin: 14px;
-            border-radius: 3px;
-            font-size: 20px;
-        }
-
-        .formerror {
-            color: red;
-        }
-
-        .but {
-            border-radius: 9px;
-            width: 100px;
-            height: 50px;
-            font-size: 25px;
-            margin: 22px 20px;
-        }
-
-        .reverse-btn{
-        font-size: 0.8rem;
-        font-weight: 100;
-        outline: none;
-        background-color: black;
-        border: none;
-        color: rgb(248, 248, 249);
-        padding: 13px 30px;
-        cursor: pointer;
-        text-transform:uppercase;
-        transition: 0.3s ease;
-        }
-
-        .reverse-btn:hover{
-        background-color: coral;
-        }
-</style>
 <body>
       <!--Header Section-->
-</div>
 <nav class="navbar">
     <div class="fitness-title"><b>FitZone</b></div>
     <a href="#" class="toggle-button">
@@ -72,13 +86,6 @@
         <span class="bar"></span>
         <span class="bar"></span>
     </a>
-    <div class="searchArea">
-        <div class="fa fa-search"></div>
-        <input type="text" placeholder="Search for fitness equipment">
-        <div class="fa fa-times"></div>
-    </div>
- 
- 
     <div class="navbar-links">
         <ul>
             <li><a href="./index.html">Home</a></li>
@@ -88,27 +95,49 @@
     </div>
 </nav>
     <h1> Reserve what you like before it's tooo late !!!</h1>
-     <form> 
-        <div class="formdesign" id="name">
-            Name: <input type="text" name="fname" required><b><span class="formerror"> </span></b>
+    <div class="container">
+        <form>
+        <div class="row">
+          <div class="col-25">
+            <label for="fname">First Name</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          </div>
         </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="lname">Phone Number</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="lname" name="lastname" placeholder="Your phone number..">
+          </div>
+        </div>     
 
-        <div class="formdesign" id="email">
-            Email: <input type="email" name="femail" required><b><span class="formerror"> </span></b>
+        <div class="row">
+            <div class="col-25">
+              <label for="faddress">Address</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="faddress" name="address" placeholder="Your address..">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-25">
+              <label for="fproduct">Product name</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="fproduct" name="firstname" placeholder="Write your product name..">
+            </div>
+          </div>
+
+        <div class="row">
+                     <input type="submit" value="Submit">
         </div>
-
-        <div class="formdesign" id="phone">
-            Phone: <input type="phone" name="fphone" required><b><span class="formerror"></span></b>
-        </div>
-
-        <div class="formdesign" id="add">
-            Address: <input type="address" name="fadd" required><b><span class="formerror"></span></b>
-        </div>
-
-        <button class="reverse-btn">Reserve Now</button>
-    </form>
-    
-
+        </form>
+      </div>
+    </div> 
     <!--Footer-->
     <footer class="footer">
         <div class="container1">
