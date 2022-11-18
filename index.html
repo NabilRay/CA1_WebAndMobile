@@ -10,17 +10,20 @@
     <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@500&family=Open+Sans:ital,wght@1,300&family=Raleway:ital,wght@1,400;1,600&display=swap" rel="stylesheet">
     <!-- Fontawsome cdn -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Bootsrap -->
     <link rel="sytlesheet" href="./bootstrap-5.2.2-dist/css/bootstrap.min.css">
 
     <title>FitZone</title>
 
     <link href="./style/sytle.css" rel="stylesheet">
-   
+  <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 
 
 </head>
 
 <body>
+ <table class="table"></table>
     <!--Header Section-->
     
         <nav class="navbar">
@@ -48,14 +51,33 @@
      
         <!--Banner Section-->
 
-        <div class="banner">
+            <div class="banner-screen-video">
+                <video autoplay loop muted>
+                    <source src="./video/motivation.mp4" type="video/mp4"/>
+                </video>
+                <div class="news">
+                    <h1><b>Welcome to FitZone</b></h1>
+                    <p><b>Get the best fitness equipment for you!</b></p>           
+                    <button>Reserve your Favourite Now !!!</button>
+                 </div>
+
+            </div>
+           
+
+
+
+
+
+
+   <!--<div class="banner">
             <img class="banner-img" src="./img/fitness.png" alt="fitness picture">
             <div class="news">
                 <h1><b>Welcome to FitZone</b></h1>
                 <p><b>Get the best fitness equipment for you!</b></p>           
                 <button onclick="window.location.href = 'reservation.html';">   Reserve your Favourite Now !!!</button>
              </div>
-        </div>
+        </div> -->  
+
 
 
         <!--Fitness equipment Section-->
@@ -75,14 +97,14 @@
            <img src="./img/dumbbell1.jpg" alt="">
            <h2>Dumbbell</h2>
            <h2>$1850 </h2>
-           <br>
+           
            <i class="fa-solid fa-star"></i>
            <i class="fa-solid fa-star"></i>
            <i class="fa-solid fa-star"></i>
            <i class="fa-solid fa-star-half-stroke"></i>
            <br>
            <br>
-           <button class="rev-btn">Reserve Now</button>
+           <button class="rev-btn">View & Reserve Now</button>
 </div>
 
         </div>
@@ -100,7 +122,7 @@
            <i class="fa-solid fa-star"></i>
            <br>
            <br>
-           <button class="rev-btn">Reserve Now</button>
+           <button class="rev-btn">View & Reserve Now</button>
             </div>
         </div>
   
@@ -115,7 +137,7 @@
            <i class="fa-regular fa-star"></i>
            <br>
            <br>
-           <button class="rev-btn">Reserve Now</button>
+           <button class="rev-btn">View & Reserve Now</button>
         </div>
   
         <div class="image" data-title="hyperextension">
@@ -129,11 +151,11 @@
            <i class="fa-solid fa-star"></i>
            <br>
            <br>
-           <button class="rev-btn" onclick a href="./index.html">Reserve Now</button>
+           <button class="rev-btn" onclick a href="./index.html">View & Reserve Now</button>
 
         </div>
   
-        <div class="image" data-title="Multigym">
+        <div class="image" data-title="multigym">
            <img src="./img/MultiGym.png" alt="">
            <h2>MultiGym</h2>
            <h2>$220 </h2>
@@ -143,11 +165,11 @@
            <i class="fa-regular fa-star"></i>
            <br>
            <br>
-           <button class="rev-btn">Reserve Now</button>
+           <button class="rev-btn">View & Reserve Now</button>
 
         </div>
   
-        <div class="image" data-title="Dumbbells">
+        <div class="image" data-title="dumbbells">
            <img src="./img/Dumbbells.png" alt="">
            <h2>Dumbbells</h2>
            <h2>$130 </h2>
@@ -158,11 +180,11 @@
            <i class="fa-solid fa-star-half-stroke"></i>
            <br>
            <br>
-           <button class="rev-btn">Reserve Now</button>
+           <button class="rev-btn">View & Reserve Now</button>
 
         </div>
   
-        <div class="image" data-title="Rack">
+        <div class="image" data-title="rack">
            <img src="./img/Rack.png" alt="">
            <h2>Rack</h2>
            <h2>$1200 </h2>
@@ -173,11 +195,11 @@
            <i class="fa-regular fa-star"></i>
            <br>
            <br>
-           <button class="rev-btn">Reserve Now</button>
+           <button class="rev-btn">View & Reserve Now</button>
 
         </div>
   
-        <div class="image" data-title="Spinbike">
+        <div class="image" data-title="spinbike">
            <img src="./img/Spinbike.png" alt="">
            <h2>Spinbike</h2>
            <h2>$1050</h2>
@@ -188,11 +210,11 @@
            <i class="fa-solid fa-star"></i>
            <br>
            <br>
-           <button class="rev-btn">Reserve Now</button>
+           <button class="rev-btn">View & Reserve Now</button>
 
         </div>
   
-        <div class="image" data-title="Rower">
+        <div class="image" data-title="rower">
            <img src="./img/Rower.png" alt="">
            <h2>Rower</h2>
            <h2>$1000</h2>
@@ -202,11 +224,11 @@
            <i class="fa-solid fa-star-half-stroke"></i>
            <br>
            <br>
-           <button class="rev-btn">Reserve Now</button>
+           <button class="rev-btn">View & Reserve Now</button>
 
         </div>
 
-        <div class="image" data-title="Kettlebells">
+        <div class="image" data-title="kettlebells">
             <img src="./img/Kettlebells.png" alt="">
             <h2>Kettlebells</h2>
             <h2>$200 </h2>
@@ -216,11 +238,11 @@
             <i class="fa-solid fa-star"></i>
             <br>
             <br>
-            <button class="rev-btn">Reserve Now</button>
+            <button class="rev-btn">View & Reserve Now</button>
 
          </div>
 
-         <div class="image" data-title="Booty Trainer">
+         <div class="image" data-title="booty trainer">
             <img src="./img/Booty Trainer.png" alt="">
             <h2>Booty Trainer</h2>
             <h2>$2600 </h2>
@@ -230,11 +252,11 @@
             <i class="fa-solid fa-star-half-stroke"></i>
             <br>
             <br>
-            <button class="rev-btn">Reserve Now</button>
+            <button class="rev-btn">View & Reserve Now</button>
 
          </div>
 
-         <div class="image" data-title="Power Suspension Trainer">
+         <div class="image" data-title="power suspension trainer">
             <img src="./img/Power Suspension Trainer.png" alt="">
             <h2>Power Suspension Trainer</h2>
             <h2>$22 </h2>
@@ -244,7 +266,7 @@
             <i class="fa-solid fa-star"></i>
             <br>
             <br>
-            <button class="rev-btn">Reserve Now</button>
+            <button class="rev-btn">View & Reserve Now</button>
 
          </div>
   
@@ -288,6 +310,7 @@
             </div>
        </footer>
     
+
 
 <!-- Bootsrap for JS-->
 <script src="./bootstrap-5.2.2-dist/js/bootstrap.min.js"></script>
