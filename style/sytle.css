@@ -3,112 +3,50 @@
 * {
     box-sizing: border-box;
     outline: none; 
-  
     text-decoration: none;
     text-transform: capitalize;
     transition: all .2s linear;
 }
 
 .navbar{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: rgb(3, 3, 59);
-    color: white;
-    position:sticky;
-    top: 0px;
-    z-index: 1;
+  margin: 0px, 20px;
+}
+
+
+.navbar .navbar-brand{
+  font-size: 2rem;
+  font-weight: bold;
+}
+.navbar img{
+  padding: 10px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+ 
 
 }
 
-.fitness-title{
-    font-size: 2.5rem;
-    font-weight: bold;
-    margin: .5rem;
-    font-family: 'Arial';
+.navbar .d-flex{
+  padding-left: 23%;
+  padding-right: 20%;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.navbar-links ul {
-    margin: 0;
-    padding: 0;
-    display: flex;
+.navbar .d-flex input{
+  font-size: 0.9rem;
+  width: 230px;
+  text-align: center;
 }
 
-.navbar-links li{
-    list-style: none;
-}
-
-.navbar-links li a{
-    text-decoration: none;
-    color: white;
-    padding: 1rem;
-    display: block;
-}
-
-.navbar-links li:hover {
-    background-color: rgb(134, 138, 176);
-}
-
-.toggle-button {
-    position: absolute;
-    top: .75rem;
-    right: 1rem;
-    display: none;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 30px;
-    height: 21px;
-
-}
-
-.toggle-button .bar{
-    height: px;
-    width: 100%;
-    background-color: white;
-    border-radius: 20px;
-}
 
 /*Responsive design for the navbar*/
 
 
 
 
-/*Building a responsive search bar. */
-.navbar .searchArea{
-    height: 30px;
-    width: 400px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: white;
-    padding: 0.5rem;
-    border-radius: 0.5rem;
-    color:rgb(3, 3, 59);
-    
-}
-
-  .searchArea input{
-    margin: 0 0.5rem 0 0.5rem;
-    font-size: 1rem;
-    font-family:Arial;
-    width: 100%;
-    border: none;
-    outline: none;
-    text-align: center;
-    background: white;
-    color:rgb(3, 3, 59);
-}
-
-.searchArea ::placeholder {
-    color: rgb(3, 3, 59);
-  }
-
-
-@media(max-width: 200px){
-  .searchArea{
-    width: 100%;
-}
-}
 
 /* Banner Section video */
 
@@ -158,7 +96,7 @@
 }
 
 .banner-screen-video .news p{
-    color:  rgb(231, 96, 33);
+    color:  rgb(42, 118, 239);
     font-weight: 600;
  
 }
@@ -177,7 +115,8 @@
 
 }
 .banner-screen-video .news button:hover{
-  background-color: coral;
+  background-color: rgb(42, 118, 239);
+  border-color: rgb(42, 118, 239);
 }
 
 /*Responsive Design of the Banner*/
@@ -351,7 +290,8 @@ background-color: coral;
     transition: 0.3s ease;
   }
   .container .image-container .image button:hover{
-    background-color: coral;
+    background-color: rgb(42, 118, 239);
+    border-color: rgb(42, 118, 239);
   }
   
   @media (max-width:768px){
@@ -394,91 +334,3 @@ background-color: coral;
 
   /* Footer Section */
 
-.container1{
-	max-width: 1000px;
-}
-.row{
-	display: flex;
-	flex-wrap: wrap;
-}
-ul{
-	list-style: none;
-}
-
-.footer{
-	background-color: rgb(3, 3, 59);;
-    padding: 50px 40px 40px 50px;
-    margin: 10px 0px 0px;
-    margin-top: 900px;
-}
-.footer-col{
-   width: 25%;
-   padding: 0 15px;
-   width: 33%;
-   padding: 0 10px;
-}
-.footer-col h4{
-	font-size: 18px;
-	color: #ffffff;
-	text-transform: capitalize;
-	margin-bottom: 35px;
-	font-weight: 500;
-	position: relative;
-}
-.footer-col h4::before{
-	content: '';
-	position: absolute;
-	left:0;
-	bottom: -10px;
-	background-color: #f7eef1;
-	height: 2px;
-	box-sizing: border-box;
-	width: 50px;
-}
-.footer-col ul li:not(:last-child){
-	margin-bottom: 10px;
-}
-.footer-col ul li a{
-	font-size: 16px;
-	text-transform: capitalize;
-	color: #ffffff;
-	text-decoration: none;
-	font-weight: 300;
-	color: #bbbbbb;
-	display: block;
-	transition: all 0.3s ease;
-}
-.footer-col ul li a:hover{
-	color: #ffffff;
-	padding-left: 8px;
-}
-.footer-col .social-links a{
-	display: inline-block;
-	height: 40px;
-	width: 40px;
-	background-color: rgba(255,255,255,0.2);
-	margin:0 10px 10px 0;
-	text-align: center;
-	line-height: 40px;
-	border-radius: 50%;
-	color: #ffffff;
-	transition: all 0.5s ease;
-}
-.footer-col .social-links a:hover{
-	color: #24262b;
-	background-color: #ffffff;
-}
-
-/*responsive design for the footer*/
-
-@media(max-width: 767px){
-  .footer-col{
-    width: 50%;
-    margin-bottom: 30px;
-}
-}
-@media(max-width: 574px){
-  .footer-col{
-    width: 100%;
-}
-}

@@ -23,31 +23,47 @@
 </head>
 
 <body>
- <table class="table"></table>
+ 
     <!--Header Section-->
     
-        <nav class="navbar">
-            <div class="fitness-title"><b>FitZone</b></div>
-            <a href="#" class="toggle-button">
-                
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </a>
-            <div class="searchArea">
-                <div class="fa fa-search"></div>
-                <input type="text" placeholder="Search for fitness equipment" id="search-box">
-                <div class="fa fa-times"></div>   
+    <nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-dark">
+           
+        <a
+            href="#" class="navbar-brand mb-0 h1">
+            <img src="./img/fitzoneLogo.png" alt="Fitzone Logo"/>
+            FitZone
+        </a>
+        <form class="d-flex">
+            <input type="text" placeholder="Search for fitness equipment" id="search-box" class="form-control me-2">
+            <button type="submit" class="btn btn-primary">Search</button>
+        </form>
+
+
+        <button
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            class="navbar-toggler"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+            >
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a href="/index.html" class="nav-link active">Home</a>
+                </li>
+                <li class="nav-item active">
+                    <a href="/reservation.html" class="nav-link active">Reservation</a>
+                </li>
+            </ul>
             </div>
-            
-            <div class="navbar-links">
-                <ul>
-                    <li><a href="./index.html">Home</a></li>
-                    <li><a href="./reservation.html">Reservation</a></li>
-                </ul>
-            </div>
-            </nav>
-    
+           
+</nav>
+
      
         <!--Banner Section-->
 
@@ -275,41 +291,101 @@
   </div>
 
         <!--Footer-->
-        <footer class="footer">
-            <div class="container1">
-                <div class="row">
-                    <div class="footer-col">
-                        <h4>FitZone</h4>
-                        <ul>
-                            <li><a href="#">About us</a></li>
-                            <li><a href="#">Our services</a></li>
-                            <li><a href="#">Privacy policy</a></li>
-                        </ul>
+
+        <footer class="bg-dark text-white pt-5 pb4">
+
+            <div class="container text-center text-md-left">
+                <div class="row text-center text-md-left">
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                        <h5 class="text uppercase mb-4 font-weight-bold text-primary">FitZone</h5>
+                        <p>This is our Fitness Equipment company. We sell the best and afordable eguipments for your training sessions</p>
+    
                     </div>
-                    <div class="footer-col">
-                        <h4>Get help</h4>
-                        <ul>
-                            <li><a href="#">FAQ</a></li>
-                            <li><a href="#">Shipping</a></li>
-                            <li><a href="#">Returns</a></li>
-                            <li><a href="#">Order status</a></li>
-                            <li><a href="#">Payment options</a></li>
-                        </ul>
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                        <h5 class="text-uppercase mb-4 font-weight-bold text-primary">Products</h5>
+                        <p>
+                            <a href="#" class="text-white" style="text-decoration: none;">The Providers</a>
+                        </p>
+                        <p>
+                            <a href="#" class="text-white" style="text-decoration: none;">Creativity</a>
+                        </p>
+                        <p>
+                            <a href="#" class="text-white" style="text-decoration: none;">SourceFiles</a>
+                        </p>
                     </div>
-                  
-                    <div class="footer-col">
-                        <h4>Follow us</h4>
-                        <div class="social-links">
-                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                            <a href="#"><i class="fab fa-instagram"></i></a>
-                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+    
+                        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                            <h5 class="text-uppercase mb-4 font-weight-bold text-primary">Useful Links</h5>
+                            <p>
+                                <a href="#" class="text-white" style="text-decoration: none;">The Providers</a>
+                            </p>
+                            <p>
+                                <a href="#" class="text-white" style="text-decoration: none;">Creativity</a>
+                            </p>
+                            <p>
+                                <a href="#" class="text-white" style="text-decoration: none;">SourceFiles</a>
+                            </p>
+                        </div>
+    
+                        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                            <h5 class="text-uppercase mb-4 font-weight-bold text-primary">Contact</h5>
+                            <p>
+                                <i class="fas fa-home mr-3" style="padding-right: 10px;"></i>Dublin, DB 23333, Irland
+                            </p>
+                            <p>
+                                <i class="fas fa-envelope mr-3" style="padding-right: 10px;"></i>fitzone@gmail.com
+                            </p>
+                            <p>
+                                <i class="fas fa-phone mr-3" style="padding-right: 10px;"></i>92 31655444378
+                            </p>
+                            <p>
+                                <i class="fas fa-print mr-3" style="padding-right: 10px;"></i>+01 335 633 77
+                            </p>
+                        </div>
+    
+                </div>
+                <hr class="mb-4">
+                <div class="row align-items-center">
+                    <div class="col-md-7 col-lg-8">
+                        <p>Copyright @2022 All rights reserved by:
+                            <a href="#" style="text-decoration: none;">
+                            <strong class="text-primary">FitZone</strong></a>
+                        </p>
+    
+                    </div>
+                    <div class="col-md-5 col-lg-4">
+                        <div class="text-center text-md-right">
+                            <ul class="list-unstyled list-inline">
+                                <li class="list-inline-item">
+                                    <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;">
+                                    <i class="fab fa-facebook"></i></a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;">
+                                    <i class="fab fa-twitter"></i></a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;">
+                                    <i class="fab fa-google-plus"></i></a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;">
+                                    <i class="fab fa-linkedin-in"></i></a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;">
+                                    <i class="fab fa-youtube"></i></a>
+                                </li>
+                            </ul>
                         </div>
                     </div>
-                </div>
-            </div>
-       </footer>
     
+                </div>
+    
+            </div>
+    
+           </footer>
+       
 
 
 <!-- Bootsrap for JS-->
