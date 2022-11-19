@@ -272,7 +272,7 @@ background-color: coral;
     max-width: 100%;
     margin-bottom: 10px;
     border-radius: 5px;
-    cursor: pointer;
+    cursor: pointer
   }
   
   .container .image-container .image h3{
