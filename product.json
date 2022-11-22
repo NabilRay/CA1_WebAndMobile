@@ -1,0 +1,90 @@
+[
+    {
+        "id": 0,
+        "name":"Dumbbell",
+        "img": "./img/dumbbell1.jpg",
+        "btn_txt": "View More",
+        "price":"€ 1850"
+    },
+    {
+        "id": 1,
+        "name":"Boltstrength",
+        "img": "./img/Boltstrength.png",
+        "btn_txt": "Reserve Now",
+        "user_rating":4.5,
+        "price": 100
+    },
+    {
+        "id": 2,
+        "name":"Dumbells",
+        "img": "./img/Hyperextension.png",
+        "btn_txt": "Reserve Now",
+        "user_rating":4,
+        "price": 100
+    },
+    {
+        "id": 3,
+        "name":"Jumping box",
+        "img": "./img/MultiGym.png",
+        "btn_txt": "Reserve Now",
+        "user_rating":4,
+        "price": 100
+    },
+    {
+        "id": 4,
+        "name":"Plates",
+        "img": "./img/Rack.png",
+        "btn_txt": "Reserve Now",
+        "user_rating":2.5,
+        "price": 100
+    },
+    {
+        "id": 5,
+        "name":"Rings",
+        "img": "./img/Spinbike.png",
+        "btn_txt": "Reserve Now",
+        "user_rating":3
+    },
+    {
+        "id": 6,
+        "name":"Rowing machine",
+        "img": "./img/Rower.png",
+        "btn_txt": "Reserve Now",
+        "user_rating":3.5
+    },
+    {
+        "id": 7,
+        "name":"Skipping rope",
+        "img": "./img/Kettlebells.png",
+        "btn_txt": "Reserve Now",
+        "user_rating":4.5
+    },
+    {
+        "id": 8,
+        "name":"Treadmill",
+        "img": "./img/Booty Trainer.png",
+        "btn_txt": "Reserve Now",
+        "user_rating":4
+    },
+    {
+        "id": 9,
+        "name":"Weight rack",
+        "img": "./img/Power Suspension Trainer.png",
+        "btn_txt": "Reserve Now",
+        "user_rating":5
+    },
+    {
+        "id": 10,
+        "name":"Weights",
+        "img": "./img/Bench.png",
+        "btn_txt": "Reserve Now",
+        "user_rating":3
+    },
+    {
+        "id": 11,
+        "name":"Yoga mat",
+        "img": "./images/yoga_mat.jpg",
+        "btn_txt": "Reserve Now",
+        "user_rating":4.5
+    }
+]
