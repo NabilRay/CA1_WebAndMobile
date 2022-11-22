@@ -88,8 +88,8 @@
     },
     {
         "id": 11,
-        "name":"Yoga mat",
-        "img": "./img/dumbbell1.jpg",
+        "name":"Trendmill",
+        "img": "./img/Treadmill.png",
         "btn_txt": "View More",
         "price": "€ 100"
 
