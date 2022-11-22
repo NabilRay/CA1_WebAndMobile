@@ -25,6 +25,7 @@ $(document).ready(()=>{
             $(h2).text(arrItems[i].name)
             $(h2_1).text(arrItems[i].price)
             rev_btn.innerText=arrItems[i].btn_txt
+            $(rev_btn).click(pro)
             $(image_div).addClass("image")
             $(image_div).append(img)
             $(image_div).append(h2)
