@@ -7,6 +7,11 @@ $(document).ready(()=>{
         $.each(data, function (index, value) {
             arrItems.push(value);
         });
+        function pro(){
+            var proid = $(this).attr('id');
+            location.href = "productDetails.html?id="+proid;
+        }
+
         var container = $(".image-container")
         for (var i=0;i<arrItems.length;i++){
             var image_div = document.createElement('div');
@@ -15,6 +20,7 @@ $(document).ready(()=>{
             var h2 = document.createElement('h2');
             var h2_1 = document.createElement('h2');
             var rev_btn = document.createElement('button');
+            $(rev_btn).attr("id",i)
             img.src = arrItems[i].img
             $(h2).text(arrItems[i].name)
             $(h2_1).text(arrItems[i].price)

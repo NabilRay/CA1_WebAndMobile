@@ -1,3 +1,4 @@
+
 [
     {
         "id": 0,
@@ -10,81 +11,87 @@
         "id": 1,
         "name":"Boltstrength",
         "img": "./img/Boltstrength.png",
-        "btn_txt": "Reserve Now",
+        "btn_txt": "View More",
         "user_rating":4.5,
-        "price": 100
+        "price": "€ 100"
     },
     {
         "id": 2,
-        "name":"Dumbells",
+        "name":"Hyperextension",
         "img": "./img/Hyperextension.png",
-        "btn_txt": "Reserve Now",
+        "btn_txt": "View More",
         "user_rating":4,
-        "price": 100
+        "price": "€ 100"
     },
     {
         "id": 3,
-        "name":"Jumping box",
+        "name":"MultiGym",
         "img": "./img/MultiGym.png",
-        "btn_txt": "Reserve Now",
+        "btn_txt": "View More",
         "user_rating":4,
-        "price": 100
+        "price": "€ 100"
     },
     {
         "id": 4,
-        "name":"Plates",
+        "name":"Rack",
         "img": "./img/Rack.png",
-        "btn_txt": "Reserve Now",
-        "user_rating":2.5,
-        "price": 100
+        "btn_txt": "View More",
+        "price": "€ 100"
     },
     {
         "id": 5,
-        "name":"Rings",
+        "name":"Spinbike",
         "img": "./img/Spinbike.png",
-        "btn_txt": "Reserve Now",
-        "user_rating":3
+        "btn_txt": "View More",
+        "price": "€ 100"
+
     },
     {
         "id": 6,
         "name":"Rowing machine",
         "img": "./img/Rower.png",
-        "btn_txt": "Reserve Now",
-        "user_rating":3.5
+        "btn_txt": "View More",
+        "price": "€ 100"
+
     },
     {
         "id": 7,
-        "name":"Skipping rope",
+        "name":"Kettlebells",
         "img": "./img/Kettlebells.png",
-        "btn_txt": "Reserve Now",
-        "user_rating":4.5
+        "btn_txt": "View More",
+        "price": "€ 100"
+
     },
     {
         "id": 8,
-        "name":"Treadmill",
+        "name":"Booty Trainer",
         "img": "./img/Booty Trainer.png",
-        "btn_txt": "Reserve Now",
-        "user_rating":4
+        "btn_txt": "View More",
+        "price": "€ 100"
+
     },
     {
         "id": 9,
-        "name":"Weight rack",
+        "name":"Power Suspension Trainer",
         "img": "./img/Power Suspension Trainer.png",
-        "btn_txt": "Reserve Now",
-        "user_rating":5
+        "btn_txt": "View More",
+        "price": "€ 100"
+
     },
     {
         "id": 10,
-        "name":"Weights",
+        "name":"Bench",
         "img": "./img/Bench.png",
-        "btn_txt": "Reserve Now",
-        "user_rating":3
+        "btn_txt": "View More",
+        "price": "€ 100"
+
     },
     {
         "id": 11,
         "name":"Yoga mat",
-        "img": "./images/yoga_mat.jpg",
-        "btn_txt": "Reserve Now",
-        "user_rating":4.5
+        "img": "./img/dumbbell1.jpg",
+        "btn_txt": "View More",
+        "price": "€ 100"
+
     }
 ]
