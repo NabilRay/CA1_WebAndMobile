@@ -1,0 +1,97 @@
+
+[
+    {
+        "id": 0,
+        "name":"Dumbbell",
+        "img": "./img/dumbbell1.jpg",
+        "btn_txt": "View More",
+        "price":"€ 1850"
+    },
+    {
+        "id": 1,
+        "name":"Boltstrength",
+        "img": "./img/Boltstrength.png",
+        "btn_txt": "View More",
+        "user_rating":4.5,
+        "price": "€ 100"
+    },
+    {
+        "id": 2,
+        "name":"Hyperextension",
+        "img": "./img/Hyperextension.png",
+        "btn_txt": "View More",
+        "user_rating":4,
+        "price": "€ 100"
+    },
+    {
+        "id": 3,
+        "name":"MultiGym",
+        "img": "./img/MultiGym.png",
+        "btn_txt": "View More",
+        "user_rating":4,
+        "price": "€ 100"
+    },
+    {
+        "id": 4,
+        "name":"Rack",
+        "img": "./img/Rack.png",
+        "btn_txt": "View More",
+        "price": "€ 100"
+    },
+    {
+        "id": 5,
+        "name":"Spinbike",
+        "img": "./img/Spinbike.png",
+        "btn_txt": "View More",
+        "price": "€ 100"
+
+    },
+    {
+        "id": 6,
+        "name":"Rowing machine",
+        "img": "./img/Rower.png",
+        "btn_txt": "View More",
+        "price": "€ 100"
+
+    },
+    {
+        "id": 7,
+        "name":"Kettlebells",
+        "img": "./img/Kettlebells.png",
+        "btn_txt": "View More",
+        "price": "€ 100"
+
+    },
+    {
+        "id": 8,
+        "name":"Booty Trainer",
+        "img": "./img/Booty Trainer.png",
+        "btn_txt": "View More",
+        "price": "€ 100"
+
+    },
+    {
+        "id": 9,
+        "name":"Power Suspension Trainer",
+        "img": "./img/Power Suspension Trainer.png",
+        "btn_txt": "View More",
+        "price": "€ 100"
+
+    },
+    {
+        "id": 10,
+        "name":"Bench",
+        "img": "./img/Bench.png",
+        "btn_txt": "View More",
+        "price": "€ 100"
+
+    },
+    {
+        "id": 11,
+        "name":"Yoga mat",
+        "img": "./img/dumbbell1.jpg",
+        "btn_txt": "View More",
+        "price": "€ 100"
+
+    }
+]
